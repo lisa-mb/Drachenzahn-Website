@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinderladen Drachenzahn</title>
+    <style>
+        .navigation-link {
+            background-color: lightpink;
+            padding: 15px 50px 15px 50px;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        .top-container {
+            height: 70vh;
+            background-color: beige;
+            display: grid;
+            grid-template-areas:
+                'header header'
+                'left right';
+        }
+    </style>
+</head>
+
+<body style="font-family: sans-serif; padding: 0; margin: 0;">
+
+<div class="top-container">
+    <!-- Menüleiste -->
+    <div style="grid-area: header;">
+        <ul style="background-color: red; list-style-type: none;  margin: 0; padding: 0; vertical-align: middle;">
+            <li style="display: inline;">
+                <img src="logo.png" width="100px" style="vertical-align: middle; margin-right: 30px;">
+            </li>
+            <li style="display: inline;">
+                <a href="#" class="navigation-link">Home</a>
+            </li>
+            <li style="display: inline;">
+                <a href="kontakt.html" class="navigation-link">Kontakt</a>
+            </li>
+            <li style="display: inline;">
+                <a href="#" class="navigation-link">Sonstiges</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <!-- Willkommenstext -->
+    <div style="border: blueviolet 1px dotted; grid-area: left;">
+        <h1 style="background-color:yellow; margin: 0;">Willkommen im Kinderladen Drachenzahn</h1>
+        <p style="background-color:lightpink; margin: 0;">In unseren Kindertagesstätten sind alle Kinder willkommen - egal welchen Geschlechts, welcher Religion,
+            welcher Herkunft und mit welchen individuellen Fähigkeiten bzw. Einschränkungen auch ausgestattet.</p>
+        <a href="kontakt.html" style="background-color:lightblue;">Jetzt kontaktieren</a>
+    </div>
+
+    <img src="logo.png" width="50%" style="grid-area: right;">
+</div>
+
+
+
+
+
+<!-- Über uns -->
+<div>
+    <h1 style="text-align: center;">Über uns</h1>
+</div>
+
+</body>
+</html>
