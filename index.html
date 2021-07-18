@@ -18,6 +18,7 @@
             grid-template-areas:
                 'header header'
                 'left right';
+            padding: 0 100px;
         }
 
         .about-us-container {
@@ -31,6 +32,20 @@
             grid-row-end: 3;
             height: 100%;
         }
+
+        .call-to-action {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            background-color: orange;
+            padding: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+
+        .call-to-action:hover {
+            border: 1px solid grey;
+        }
     </style>
 </head>
 
@@ -41,7 +56,7 @@
     <div style="grid-area: header; text-align: center;">
         <ul style="list-style-type: none;  margin: 0; padding: 0; vertical-align: middle; height: 100px;">
             <li style="display: inline;">
-                <img src="logo.png" style="vertical-align: middle; margin-right: 30px; height: 100%; padding: 10px;">
+                <img src="logo.png" style="vertical-align: middle; margin-right: 30px; height: 100%; padding: 10px;" />
             </li>
             <li style="display: inline;">
                 <a href="#" class="navigation-link">Home</a>
@@ -59,11 +74,11 @@
 
 
     <!-- Willkommenstext -->
-    <div style="border: blueviolet 1px dotted; grid-area: left;">
-        <h1 style="background-color:yellow; margin: 0;">Willkommen im Kinderladen Drachenzahn</h1>
-        <p style="background-color:lightpink; margin: 0;">In unseren Kindertagesstätten sind alle Kinder willkommen - egal welchen Geschlechts, welcher Religion,
+    <div style="grid-area: left;">
+        <h1 style="margin: 0; font-size: 50px;">Willkommen im Kinderladen<br />Drachenzahn</h1>
+        <p style="margin: 30px 0 80px 0;">In unseren Kindertagesstätten sind alle Kinder willkommen - egal welchen Geschlechts, welcher Religion,
             welcher Herkunft und mit welchen individuellen Fähigkeiten bzw. Einschränkungen auch ausgestattet.</p>
-        <a href="kontakt.html" style="background-color:lightblue;">Jetzt kontaktieren</a>
+        <a href="kontakt.html" class="call-to-action">Jetzt kontaktieren</a>
     </div>
 
     <img src="logo.png" width="50%" style="grid-area: right;">
