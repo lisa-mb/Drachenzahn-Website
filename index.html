@@ -5,19 +5,31 @@
     <title>Kinderladen Drachenzahn</title>
     <style>
         .navigation-link {
-            background-color: lightpink;
             padding: 15px 50px 15px 50px;
             text-decoration: none;
             font-weight: bolder;
+            color: #494949;
         }
 
         .top-container {
             height: 70vh;
-            background-color: beige;
+            background-image: linear-gradient(to bottom right, #FFEFCF, #f9f5ed);
             display: grid;
             grid-template-areas:
                 'header header'
                 'left right';
+        }
+
+        .about-us-container {
+            border: sandybrown dotted 3px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .about-us-container > img {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            height: 100%;
         }
     </style>
 </head>
@@ -26,10 +38,10 @@
 
 <div class="top-container">
     <!-- Menüleiste -->
-    <div style="grid-area: header;">
-        <ul style="background-color: red; list-style-type: none;  margin: 0; padding: 0; vertical-align: middle;">
+    <div style="grid-area: header; text-align: center;">
+        <ul style="list-style-type: none;  margin: 0; padding: 0; vertical-align: middle; height: 100px;">
             <li style="display: inline;">
-                <img src="logo.png" width="100px" style="vertical-align: middle; margin-right: 30px;">
+                <img src="logo.png" style="vertical-align: middle; margin-right: 30px; height: 100%; padding: 10px;">
             </li>
             <li style="display: inline;">
                 <a href="#" class="navigation-link">Home</a>
@@ -63,7 +75,36 @@
 
 <!-- Über uns -->
 <div>
-    <h1 style="text-align: center;">Über uns</h1>
+    <h1 style="text-align: center; color: orange;">Über uns</h1>
+    <h2 style="text-align: center;">Untertitel poetisch irgendwas</h2>
+
+    <div style="display: grid; grid-template-columns: 40vw 40vw; grid-auto-rows: 200px; justify-content: center;">
+
+        <div class="about-us-container">
+            <img src="logo.png">
+            <h3>Essen</h3>
+            <p>Schokolade ist die wichtigste Mahlzeit des Tages</p>
+        </div>
+
+        <div class="about-us-container">
+            <img src="logo.png">
+            <h3>Angebote</h3>
+            <p>Schokolade ist die wichtigste Mahlzeit des Tages</p>
+        </div>
+
+        <div class="about-us-container">
+            <img src="logo.png">
+            <h3>Ausflüge</h3>
+            <p>Schokolade ist die wichtigste Mahlzeit des Tages</p>
+        </div>
+
+        <div class="about-us-container">
+            <img src="logo.png">
+            <h3>Team</h3>
+            <p>Schokolade ist die wichtigste Mahlzeit des Tages</p>
+        </div>
+
+    </div>
 </div>
 
 </body>
