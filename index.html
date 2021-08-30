@@ -3,53 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Kinderladen Drachenzahn</title>
-    <style>
-        .navigation-link {
-            padding: 15px 50px 15px 50px;
-            text-decoration: none;
-            font-weight: bolder;
-            color: #494949;
-        }
-
-        .top-container {
-            height: 70vh;
-            background-image: linear-gradient(to bottom right, #FFEFCF, #f9f5ed);
-            display: grid;
-            grid-template-areas:
-                'header header'
-                'left right';
-            padding: 0 100px;
-        }
-
-        .about-us-container {
-            border: sandybrown dotted 3px;
-            display: grid;
-            grid-template-columns: auto auto;
-        }
-
-        .about-us-container > img {
-            grid-row-start: 1;
-            grid-row-end: 3;
-            height: 100%;
-        }
-
-        .call-to-action {
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            background-color: orange;
-            padding: 20px;
-            font-weight: bold;
-            border-radius: 20px;
-        }
-
-        .call-to-action:hover {
-            border: 1px solid grey;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
-<body style="font-family: sans-serif; padding: 0; margin: 0;">
+<body>
 
 <div class="top-container">
     <!-- Menüleiste -->
@@ -59,14 +16,15 @@
                 <img src="logo.png" style="vertical-align: middle; margin-right: 30px; height: 100%; padding: 10px;" />
             </li>
             <li style="display: inline;">
-                <a href="#" class="navigation-link">Home</a>
+                <a href="#" class="navigation-link  navigation-link--active">Home</a>
+            </li>
+            <li style="display: inline;">
+                <a href="über_uns.html" class="navigation-link">Über uns</a>
             </li>
             <li style="display: inline;">
                 <a href="kontakt.html" class="navigation-link">Kontakt</a>
             </li>
-            <li style="display: inline;">
-                <a href="#" class="navigation-link">Sonstiges</a>
-            </li>
+
         </ul>
     </div>
 
@@ -89,7 +47,7 @@
 
 
 <!-- Über uns -->
-<div>
+<div style="padding: 100px 200px;">
     <h1 style="text-align: center; color: orange;">Über uns</h1>
     <h2 style="text-align: center;">Untertitel poetisch irgendwas</h2>
 
@@ -120,6 +78,25 @@
         </div>
 
     </div>
+</div>
+
+
+
+
+<!-- Impressum und stuff -->
+<div style="background-color: grey; color: white; padding: 50px 200px;">
+  <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;">
+    <li style="display: inline;">
+      <a href="#" class="footer-link">Impressum</a>
+    </li>
+    <li style="display: inline;">
+      <a href="#" class="footer-link">Datenschutz</a>
+    </li>
+    <li style="display: inline;">
+      <a href="kontakt.html" class="footer-link">Kontakt</a>
+    </li>
+    <li style="display: inline;" class="footer-link">Copyright © 2021 Drachenzahn</li>
+  </ul>
 </div>
 
 </body>
