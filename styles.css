@@ -67,22 +67,6 @@ body {
   margin: 5px 10px;
 }
 
-.about-us-title-container {
-  text-align: center;
-  padding: 0 20%;
-  height: 40vh;
-  display: grid;
-  grid-template-columns: auto;
-  align-content: center;
- }
-
-.about-us-title {
-  font-size: 28px;
-}
-
-.about-us-subtitle {
-  font-size: 19px;
-}
 
 .about-us-box-container {
   display: grid;
@@ -133,4 +117,28 @@ body {
   padding: 10px 0;
   text-decoration: none;
   color: black;
+}
+
+.dropdown-content a:hover {
+  color: orange;
+}
+
+.more-information-link {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.more-information-link a {
+  text-decoration: none;
+  color: orange;
+}
+
+.contact-container {
+  margin: 30px 50px;
+  font-size: 20px;
+}
+
+.contact-details-title {
+  color: orange;
+  
 }

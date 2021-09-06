@@ -7,18 +7,25 @@
 </head>
 <body>
 <!-- Menüleiste -->
-<div style="grid-area: header; text-align: center;">
+<div style="grid-area: header; text-align: center; margin: 15px;">
     <ul style="list-style-type: none;  margin: 0; padding: 0; vertical-align: middle; height: 100px;">
         <li style="display: inline;">
           <a href="index.html" style="text-decoration: none;">
              <img src="logo.png" style="vertical-align: middle; margin-right: 30px; height: 100%; padding: 10px;"/>
           </a>
         </li>
-        <li style="display: inline;">
+        <li class="dropdown">
             <a href="index.html" class="navigation-link">Home</a>
         </li>
-        <li style="display: inline;">
+        <li class="dropdown">
             <a href="#" class="navigation-link  navigation-link--active">Über uns</a>
+            <div class="dropdown-content">
+              <a href="#general">Allgemeines</a>
+              <a href="#history">Geschichte</a>
+              <a href="#concept">Konzept</a>
+              <a href="#team">Team</a>
+              <a href="#rooms">Räume & Lage</a>
+            </div>
         </li>
         <li style="display: inline;">
             <a href="kontakt.html" class="navigation-link">Kontakt</a>
@@ -27,20 +34,13 @@
     </ul>
 </div>
 
-<!-- Über uns allgemeiner Stuff oben -->
-
-<div class="about-us-title-container">
-  <h1 class="about-us-title">Über uns</h1>
-  <h2 class="about-us-subtitle">Wir lieben Kinder fast so sehr wie Schokolade</h2>
-</div>
-
 <!-- Themenboxen -->
 
 <div>
 
   <div class="about-us-box-container">
     <div class="about-us-box-text-container">
-      <h3>Text</h3>
+      <h3 id="general">Allgemeines</h3>
       <p>hallo</p>
     </div>
     <div class="about-us-box-image-container">
@@ -49,12 +49,42 @@
   </div>
 
   <div class="about-us-box-container  about-us-box-container--right">
+    <div class="about-us-box-image-container">
+      <img src="logo.png" class="about-us-box-image">
+    </div>
     <div class="about-us-box-text-container">
+      <h3 id="history">Geschichte</h3>
+      <p>hi</p>
+    </div>
+  </div>
 
+  <div class="about-us-box-container">
+    <div class="about-us-box-text-container">
+      <h3 id="concept">Konzept</h3>
       <p>hallo</p>
     </div>
     <div class="about-us-box-image-container">
+      <img src="logo.png" class="about-us-box-image">
+    </div>
+  </div>
+
+  <div class="about-us-box-container  about-us-box-container--right">
+    <div class="about-us-box-image-container">
+      <img src="logo.png" class="about-us-box-image">
+    </div>
+    <div class="about-us-box-text-container">
+      <h3 id="team">Team</h3>
       <p>hi</p>
+    </div>
+  </div>
+
+  <div class="about-us-box-container">
+    <div class="about-us-box-text-container">
+      <h3 id="rooms">Räume & Lage</h3>
+      <p>hallo</p>
+    </div>
+    <div class="about-us-box-image-container">
+      <img src="logo.png" class="about-us-box-image">
     </div>
   </div>
 
