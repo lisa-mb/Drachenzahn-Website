@@ -35,16 +35,24 @@ body {
     padding: 0 100px;
 }
 
+.news-container {
+  margin: 30px 100px;
+  border: orange dotted 3px;
+}
+
 .about-us-container {
     border: sandybrown dotted 3px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr ;
+    background-color: red;
+    opacity: 30%;
 }
 
 .about-us-container > img {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 100%;
+  height: auto;
 }
 
 .call-to-action {
@@ -72,25 +80,98 @@ body {
   display: grid;
   grid-template-columns: 55% 45%;
   height: 40vh;
-
 }
 
-  .about-us-box-container--right {
-    grid-template-columns: 45% 55%;
 
+.about-us-box-container--right {
+    grid-template-columns: 45% 55%;
   }
 
+
 .about-us-box-text-container {
-  background-color: lightpink;
+  background-color: #FFEFCF;
+  padding: 10px;
+  opacity: 30%;
 }
+
+
 
 .about-us-box-image-container {
   background-color: lightgreen;
+  width: 45% 55%;
+  display: grid;
+
 }
 
-  .about-us-box-image {
-    max-height: 100%;
-  }
+
+
+
+.about-us-box-image-container > img {
+  width: 50px;
+  /* height: 100%; not working */
+
+}
+
+
+
+/* new try slider */
+
+.about-us-box-image-container--slider {
+  width: 45% 55%;
+  display: inline-flex;
+  overflow-x: hidden;
+}
+
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.slide > img {
+   height: 100%;
+   max-width: 100%;
+}
+
+.next-button {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  float: right;
+  position: relative;
+  top: 50%;
+  color: black;
+  opacity: 70%;
+}
+
+.previous-button {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  float: left;
+  position: relative;
+  top: 50%;
+  color: black;
+  opacity: 70%;
+
+}
+
+.next-button .previous-button :hover {
+   background-color: grey;
+   border: 1px solid grey;
+}
+
+
+
+
+
 
 .dropdown {
   display: inline-block;
@@ -140,5 +221,8 @@ body {
 
 .contact-details-title {
   color: orange;
-  
+}
+
+.refrences-container {
+  margin: 30px 50px;
 }
