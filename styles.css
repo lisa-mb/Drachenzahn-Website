@@ -40,10 +40,15 @@ body {
   border: orange dotted 3px;
 }
 
+
+
+
+
+
 .about-us-container {
     border: sandybrown dotted 3px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     background-color: red;
     opacity: 30%;
 }
@@ -53,6 +58,7 @@ body {
   grid-row-end: 3;
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .call-to-action {
@@ -78,13 +84,12 @@ body {
 
 .about-us-box-container {
   display: grid;
-  grid-template-columns: 55% 45%;
-  height: 40vh;
+  grid-template-columns: 1fr 1fr;
 }
 
 
 .about-us-box-container--right {
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 1fr 1fr;
   }
 
 
@@ -98,18 +103,13 @@ body {
 
 .about-us-box-image-container {
   background-color: lightgreen;
-  width: 45% 55%;
-  display: grid;
-
 }
 
 
-
-
 .about-us-box-image-container > img {
-  width: 50px;
-  /* height: 100%; not working */
-
+  object-fit: scale-down;
+  height: 60vh;
+  padding: 20px;
 }
 
 
@@ -117,7 +117,6 @@ body {
 /* new try slider */
 
 .about-us-box-image-container--slider {
-  width: 45% 55%;
   display: inline-flex;
   overflow-x: hidden;
 }
@@ -130,8 +129,7 @@ body {
 }
 
 .slide > img {
-   height: 100%;
-   max-width: 100%;
+   height: 60vh;
 }
 
 .next-button {
