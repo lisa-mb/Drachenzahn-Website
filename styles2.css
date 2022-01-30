@@ -17,18 +17,19 @@ body {
   flex-direction: row;
   justify-content: center;
   background-color: #ffe39e;
+  padding-top: 20px;
 
 }
 
 .logo {
-  height: 20vw;
+  height: 30vw;
 
 }
 
 
 .kinderladen {
   font-family: Chalkduster, Papyrus, fantasy;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #5b0000;
   padding: 0;
   margin: 25px 0 0 20px;
@@ -37,7 +38,7 @@ body {
 
 .drachenzahn {
   font-family: Chalkduster, Papyrus, fantasy;
-  font-size: 7vw;
+  font-size: 9vw;
   color: #5b0000;
   padding: 0;
   margin: 0;
@@ -47,25 +48,32 @@ body {
 
 .top-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   background-color: #ffe39e;
+  padding: 20px;
 }
 
 .welcomeIntroduction {
-  margin: 0 6vw 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
 }
 
 .welcome {
   font-family: Chalkduster, Papyrus, fantasy;
-  font-size: 4vw;
+  font-size: 6vw;
   color: #5b0000;
   margin: 10px 10px 10px 10px;
+
 }
 
 .introduction {
   font-family: Cochin, Garamond, serif;
-  font-size: 2vw;
+  font-size: 4vw;
   color: #5b0000;
 }
 
@@ -76,7 +84,7 @@ body {
 
 .contactButton {
   font-family: Cochin, Garamond, serif;
-  font-size: 2vw;
+  font-size: 4vw;
   color: #5b0000;
   text-decoration: none;
   background-color: #ffb600;
@@ -84,7 +92,7 @@ body {
   font-weight: bold;
   border-radius: 15px;
   margin-top: 4vh;
-  display: inline-block;
+  align-self: center;
 }
 
 .contactButton:hover {
@@ -92,8 +100,10 @@ body {
 }
 
 .scetch {
-  height: 20vw;
-  margin: 20vh 0 0 0;
+  flex-direction: column;
+  width: 150px;
+  align-self: flex-end;
+  margin-top: 40px;
 }
 
 /* Regenbogen */
@@ -281,4 +291,74 @@ body {
   text-decoration: none;
   color: white;
   margin: 5px 10px;
+}
+
+/* responsive Design */
+
+/* .logo {
+  height: 20vw;
+  }
+
+  .kinderladen {
+    font-family: Chalkduster, Papyrus, fantasy;
+    font-size: 2vw;
+    color: #5b0000;
+    padding: 0;
+    margin: 25px 0 0 20px;
+  }
+
+  .drachenzahn {
+    font-family: Chalkduster, Papyrus, fantasy;
+    font-size: 7vw;
+    color: #5b0000;
+    padding: 0;
+    margin: 0;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffe39e;
+  }
+
+  .welcomeIntroduction {
+    margin: 0 6vw 0 0;
+  }
+
+  .welcome {
+    font-family: Chalkduster, Papyrus, fantasy;
+    font-size: 4vw;
+    color: #5b0000;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .introduction {
+    font-family: Cochin, Garamond, serif;
+    font-size: 2vw;
+    color: #5b0000;
+  }
+
+
+  .contactButton {
+    font-family: Cochin, Garamond, serif;
+    font-size: 2vw;
+    color: #5b0000;
+    text-decoration: none;
+    background-color: #ffb600;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 4vh;
+    display: inline-block;
+  }
+
+  .scetch {
+    height: 20vw;
+    margin: 20vh 0 0 0;
+  }
+*/
+
+@media only screen and (max-width: 600px) {
+
 }
