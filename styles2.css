@@ -83,6 +83,11 @@ body {
   color: #bf4040;
 }
 
+.buttonScetch {
+  display: flex;
+  flex-direction: column;
+}
+
 .contactButton {
   font-family: Cochin, Garamond, serif;
   font-size: 5vw;
@@ -102,7 +107,7 @@ body {
 
 .scetch {
   flex-direction: column;
-  width: 150px;
+  width: 45vw;
   align-self: flex-end;
   margin-top: 30px;
 }
@@ -295,15 +300,135 @@ body {
   justify-content: center;
   background-color: grey;
   color: white;
+  font-size: 4vw;
 }
 
 .footer-link {
   text-decoration: none;
+  font-family: Cochin, Garamond, serif;
   color: white;
   margin: 4vw;
 }
 
-.copyright {
+@media only screen and (min-width: 600px) {
+
+/* DRACHENZAHN */
+
+  .kinderladen{
+    font-size: 2.5vw;
+  }
+
+  .drachenzahn {
+    font-size: 7vw;
+  }
+
+  .logo {
+    height: 17vw;
+
+    margin-right: 6vw;
+  }
+
+/* Herzlich Willkommen */
+
+  .top-container {
+    padding: 5vw;
+  }
+
+  .welcome {
+    font-size: 5vw;
+  }
+
+  .introduction {
+    font-size: 3vw;
+  }
+
+  .buttonScetch {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contactButton {
+    font-size: 3vw;
+    align-self: flex-start;
+  }
+
+  .scetch {
+    width: 25vw;
+    margin-top: 0;
+    align-self: flex-end;
+  }
+
+  /* Regenbogen */
+
+  .rainbowRed{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowOrange{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowYellow{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowGreen{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowBlue{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowPurple{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .rainbowPink{
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .moreInformation {
+    font-size: 3vw;
+    padding: 5vw;
+  }
+
+  .moreInformationHeading {
+    font-size: 3vw;
+    padding: 5vw 0 0 5vw;
+  }
+
+  /* Slideshow */
+
+  .sliderImage {
+    width: 55vw;
+    margin: 0 5vw 4vw 5vw;
+  }
+
+  .sliderButton {
+    font-size: 5vw;
+  }
+
+  /* Impressum und Stuff */
+
+  .footer {
+    font-size: 2vw;
+  }
+
+  .footer-link {
+    margin: 3vw;
+  }
+
+  .impressum {
+    padding: 5vw;
+  }
 
 
 }
@@ -528,8 +653,3 @@ body {
     margin: 5px 10px;
   }
 */
-
-
-@media only screen and (max-width: 600px) {
-
-}
