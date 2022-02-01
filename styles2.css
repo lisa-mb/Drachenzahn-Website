@@ -430,213 +430,99 @@ body {
     padding: 5vw;
   }
 
-
 }
 
-/* responsive Design */
+@media only screen and (min-width: 992px) {
 
-/* .logo {
-  height: 20vw;
+ /* Drachenzahn */
+
+  .logo {
+    height: 10vw;
   }
 
   .kinderladen {
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2vw;
-    color: #5b0000;
-    padding: 0;
-    margin: 25px 0 0 20px;
+    font-size: 1.5vw
   }
 
   .drachenzahn {
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 7vw;
-    color: #5b0000;
-    padding: 0;
-    margin: 0;
+    font-size: 5vw;
   }
 
-  .top-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #ffe39e;
-  }
+/* Herzlich Willkommen */
 
   .welcomeIntroduction {
-    margin: 0 6vw 0 0;
+    padding: 0 5vw;
   }
 
   .welcome {
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 4vw;
-    color: #5b0000;
+    font-size: 3vw;
     margin: 10px 10px 10px 10px;
   }
 
   .introduction {
-    font-family: Cochin, Garamond, serif;
-    font-size: 2vw;
-    color: #5b0000;
+    font-size: 1.5vw;
   }
 
-
   .contactButton {
-    font-family: Cochin, Garamond, serif;
-    font-size: 2vw;
-    color: #5b0000;
-    text-decoration: none;
-    background-color: #ffb600;
-    padding: 15px;
-    font-weight: bold;
-    border-radius: 15px;
-    margin-top: 4vh;
-    display: inline-block;
+    font-size: 1.5vw;
+    margin-left: 5vw;
   }
 
   .scetch {
-    height: 20vw;
-    margin: 20vh 0 0 0;
+    width: 25vw;
+    margin-right: 5vw;
   }
 
   /* Regenbogen */
+
+  .rainbowRed, .rainbowOrange, .rainbowYellow, .rainbowGreen, .rainbowBlue, .rainbowPurple, .rainbowPurple, .rainbowPink {
+    font-size: 2vw;
+    padding: 2vw 10vw 2vw 10vw;
+  }
+
+    .moreInformation {
+      padding-left: 10vw;
+      font-size: 1.5vw;
+    }
+
+    .moreInformationHeading{
+      font-size: 2vw;
+      padding-left: 10vw;
+    }
+
+    /* Impressum und Stuff */
+
+    .footer {
+      font-size: 1.5vw;
+      padding: 1vh;
+    }
+
+    .footer-link {
+      margin: 3vw;
+    }
+
+    .impressum {
+      padding-left: 8vw;
+    }
+
+}
+
+
+
+/* responsive Design */
+
+
+
 /*
-  .rainbowRed {
-    background-color: #ff8e7f;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .rainbowRed:hover {
-    color: #bf4040;
-  }
 
 
-  .rainbowOrange {
-    background-color: #ffb070;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
 
-  .rainbowOrange:hover {
-    color: #bd6041;
-  }
 
-  .rainbowYellow {
-    background-color: #fef2a3;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
 
-  .rainbowYellow:hover {
-    color: #bd9041;
-  }
+/*
 
-  .rainbowGreen {
-    background-color: #bee3c6;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
 
-  .rainbowGreen:hover {
-    color: #41be88;
-  }
 
-  .rainbowBlue {
-    background-color: #b7dcfe;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .rainbowBlue:hover {
-    color: #41adbe;
-  }
-
-  .rainbowPurple {
-    background-color: #b7b9fe;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .rainbowPurple:hover {
-    color: #6d41be;
-  }
-
-  .rainbowPink {
-    background-color: #fedbff;
-    font-family: Chalkduster, Papyrus, fantasy;
-    font-size: 2.5vw;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .rainbowPink:hover {
-    color: #be4196;
-  }
-
-  .moreInformation {
-    background-color: #fef3d6;
-    font-family: Cochin, Garamond, serif;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    margin: 0;
-  }
-
-  .moreInformationHeading {
-    background-color: #fef3d6;
-    font-family: Cochin, Garamond, serif;
-    color: #5b0000;
-    padding: 2vw 10vw 2vw 10vw;
-    margin: 0;
-    font-weight: bold;
-  }
-
-  .images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-  }
-
-  .sliderImage {
-    height: 60vh;
-    object-fit: contain;
-  }
-
-  .sliderButton {
-    margin: 50px;
-    text-decoration: none;
-    font-size: 2.5vh;
-    color: #5b0000;
-    padding: 8px;
-  }
 
   .impressum {
     background-color: #fef3d6;
@@ -645,7 +531,7 @@ body {
     padding-left: 100px;
   }
 
-  /* Impressum und Stuff */
+
 /*
   .footer-link {
     text-decoration: none;
