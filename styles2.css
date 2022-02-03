@@ -33,7 +33,7 @@ body {
   font-size: 3.5vw;
   color: #5b0000;
   padding: 0;
-  margin: 25px 0 0 20px;
+  margin: 15px 0 0 20px;
 
 }
 
@@ -43,6 +43,16 @@ body {
   color: #5b0000;
   padding: 0;
   margin: 0;
+}
+
+.friedenauer {
+  padding: 0;
+  margin: 0;
+  font-family: Cochin, Garamond, serif;
+  font-size: 3vw;
+  padding-left: 20px;
+  color: #5b0000;
+  opacity: 70%;
 }
 
 /* Herzlich Willkommen */
@@ -322,6 +332,10 @@ body {
     font-size: 7vw;
   }
 
+  .friedenauer {
+    font-size: 2.5vw;
+  }
+
   .logo {
     height: 17vw;
 
@@ -446,6 +460,10 @@ body {
 
   .drachenzahn {
     font-size: 5vw;
+  }
+
+  .friedenauer {
+    font-size: 1.5vw;
   }
 
 /* Herzlich Willkommen */
