@@ -223,6 +223,20 @@ body {
   color: #be4196;
 }
 
+.rainbowLight {
+  background-color: #ffeded;
+  font-family: Chalkduster, Papyrus, fantasy;
+  font-size: 5vw;
+  color: #5b0000;
+  padding: 5vw;
+  cursor: pointer;
+  outline: none;
+}
+
+.rainbowLight:hover {
+  color: #dd829a;
+}
+
 .moreInformation {
   background-color: #fef3d6;
   font-family: Cochin, Garamond, serif;
@@ -285,6 +299,13 @@ body {
   color: #bd9041;
 }
 
+.logos {
+  display: flex;
+}
+
+.logos img {
+  max-width: 15vw;
+}
 
 /* Kontaktseite */
 
@@ -404,7 +425,7 @@ body {
     padding: 5vw;
   }
 
-  .rainbowPink{
+  .rainbowPink, .rainbowLight{
     font-size: 3vw;
     padding: 5vw;
   }
@@ -428,6 +449,14 @@ body {
 
   .sliderButton {
     font-size: 5vw;
+  }
+
+  .logos {
+      display: flex;
+  }
+
+  .logos img {
+    max-width: 15vw;
   }
 
   /* Impressum und Stuff */
@@ -493,7 +522,7 @@ body {
 
   /* Regenbogen */
 
-  .rainbowRed, .rainbowOrange, .rainbowYellow, .rainbowGreen, .rainbowBlue, .rainbowPurple, .rainbowPurple, .rainbowPink {
+  .rainbowRed, .rainbowOrange, .rainbowYellow, .rainbowGreen, .rainbowBlue, .rainbowPurple, .rainbowPurple, .rainbowPink, .rainbowLight {
     font-size: 2vw;
     padding: 2vw 10vw 2vw 10vw;
   }
@@ -506,6 +535,18 @@ body {
     .moreInformationHeading{
       font-size: 2vw;
       padding-left: 10vw;
+    }
+
+    li a:hover {
+      color: #9c4444 !important;
+    }
+
+    .logos {
+      display: flex;
+    }
+
+    .logos img {
+      max-width: 15vw;
     }
 
     /* Impressum und Stuff */
